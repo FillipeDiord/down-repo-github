@@ -1,4 +1,4 @@
- #  API to download from a git hub repository
+ #  API to download from a GitHub repository
  
 Para ter acesso e conseguir baixar os arquivos de um determinado repositório 
 privado, é necessário entrar no github e gerar um token para dar disponibilidade de acesso
