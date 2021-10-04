@@ -29,7 +29,7 @@ const repositoryAccess = {
   url: 'https://api.github.com/repos/{USER}/{NAME-REPOSITORY}',
   headers: {
     Accept: 'application/vnd.github.v3+json',
-    Authorization: 'token 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'
+    Authorization: 'token {TOKEN}'
   }
 };
 
@@ -48,7 +48,7 @@ const downRepository = {
   url: 'https://api.github.com/repos/{USER}/{NAME-REPOSITORY}/zipball/main',
   headers: {
     Accept: 'application/vnd.github.v3+json',
-    Authorization: 'token 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'
+    Authorization: 'token {TOKEN}'
   }
 };
 
